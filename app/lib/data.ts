@@ -10,7 +10,7 @@ const posts = [
     title: "Airport shot on my first UK working holiday day",
     description:
       "First day of working holiday in the UK 🇬🇧 \nLiving in the UK exposed me to different standards of social infrastructure, particularly in accessibility and public services. This experience broadened my perspective and encouraged me to look for professional opportunities abroad.",
-    image_url: "/posts/02.jpg"
+    image_url: "/posts/02.JPG"
   },
   {
     id: "03",

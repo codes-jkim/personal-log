@@ -1,18 +1,19 @@
-## Personal Log inspired by IG
+## Personal Log inspired by Instagram
 
-A small Instagram-inspired personal log built with the Next.js. The home feed shows a 3×N grid of images from static data, each linking to a dedicated detail page with a description. There are also curated film and music pages to round out the profile.
+This project is a personal log inspired by Instagram, leveraging Next.js. The home feed features a 3-column grid layout sourced from static data, where each image links to a dedicated detail page. To create a more comprehensive profile, I added curated sections for film and music, incorporating an embedded Spotify playlist.
 
 ![Personal Log](public/preview.png)
 
-## Stack
-- Next.js 16 (App Router) + React 19 + TypeScript
-- Tailwind CSS v4 for styling (via `@tailwindcss/postcss`)
-- Lucide icons for UI chrome
-- Optional: Supabase Postgres for seeding sample posts (`app/seed/route.ts`)
+## 🚀 Live Demo
 
-## Routes
-- `/` – profile header and post grid pulled from `app/lib/data.ts`
-- `/post/[id]` – full image and description for a single post
-- `/film` – favorite film grid with hover overlays
-- `/music` – embedded Spotify playlist
+This application is deployed on [Vercel](https://vercel.com). You can access the live version here:
+
+**[https://personal-log-phi.vercel.app/](https://personal-log-phi.vercel.app/)**
+
+## 🛠️ Tech Stack
+
+- Next.js 16 + React 19 + TypeScript
+- PostgreSQL for data persistence
+- Tailwind CSS v4 for styling
+- Lucide icons for UI chrome
 

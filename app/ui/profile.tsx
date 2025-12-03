@@ -5,7 +5,7 @@ export default function Profile() {
       <h1 className="text-center text-xl py-6">jeongakim</h1>
       <div className="flex align-middle justify-around">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/profile.jpg" alt="Profile picture of Jeong-a" className="rounded-full w-20 h-auto" />
+        <img src="/profile.JPG" alt="Profile picture of Jeong-a" className="rounded-full w-20 h-auto" />
         <div className="mt-auto mb-auto">
           <p className="font-bold">Jeong-a, Kim / 김정아 / 金廷娥</p>
           <p className="text-sm">Frontend Developer</p>
