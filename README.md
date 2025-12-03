@@ -8,7 +8,7 @@ This project is a personal log inspired by Instagram, leveraging Next.js. The ho
 
 This application is deployed on [Vercel](https://vercel.com). You can access the live version here:
 
-**[https://personal-log-phi.vercel.app/](https://personal-log-phi.vercel.app/)**
+**[https://jkim.space/](https://jkim.space/)**
 
 ## 🛠️ Tech Stack
 
