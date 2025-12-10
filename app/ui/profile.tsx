@@ -10,7 +10,7 @@ export default function Profile() {
           <p className="font-bold">Jeong-a, Kim / 김정아 / 金廷娥</p>
           <p className="text-sm">Frontend Developer</p>
           <p className="text-sm">🏝️ Jeju, Korea</p>
-          <p className="text-xs mt-1 text-gray-400">
+          <p className="text-xs mt-1 text-gray-600">
             Copyright 2025. Jeong-a,Kim All Rights Reserved.
           </p>
         </div>

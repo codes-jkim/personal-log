@@ -54,12 +54,28 @@ async function seedFilms() {
   return insertedFilms;
 }
 
+async function updatePostImageExtensions() {
+  await sql`
+    UPDATE posts SET
+      image_url = REGEXP_REPLACE(image_url, '\.(png|jpg|jpeg|JPG|PNG|JPEG)$', '.webp')
+    WHERE image_url ~ '\.(png|jpg|jpeg|JPG|PNG|JPEG)$';
+  `;
+}
+
 export async function GET() {
   try {
     await sql.begin(() => [seedPosts(), seedFilms()]);
-
     return Response.json({ message: "Database seeded successfully" });
   } catch (error) {
     return Response.json({ error }, { status: 500 });
   }
 }
+
+export async function PATCH() {
+  try {
+    await updatePostImageExtensions();
+    return Response.json({ message: "Image extensions updated successfully" });
+  } catch (error) {
+    return Response.json({ error }, { status: 500 });
+  } 
+}   
