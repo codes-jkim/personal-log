@@ -2,13 +2,11 @@
 
 This project is a personal log inspired by Instagram, leveraging Next.js. The home feed features a 3-column grid layout sourced from static data, where each image links to a dedicated detail page. To create a more comprehensive profile, I added curated sections for film and music, incorporating an embedded Spotify playlist.
 
-![Personal Log](public/preview.png)
 
 ## 🚀 Live Demo
 
-This application is deployed on [Vercel](https://vercel.com). You can access the live version here:
+This application is deployed on [Vercel](https://vercel.com). You can access the live version [here](https://personal-log-phi.vercel.app/).
 
-**[https://jkim.space/](https://jkim.space/)**
 
 ## 🛠️ Tech Stack
 
